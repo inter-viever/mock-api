@@ -1,0 +1,33 @@
+{ 
+   id:1, 
+   name: "adam", 
+   age: 70, 
+   children: [ 
+       { 
+           id:2, 
+           name:"bob", 
+           age:50, 
+           children: [ 
+               { 
+                   id:4, 
+                   name:"dona", 
+                   age:28, 
+                   children:null 
+               } 
+           ]  
+       }, 
+       { 
+           id:3, 
+           name:"chris", 
+           age:36, 
+           children: [ 
+               { 
+                   id:5, 
+                   name:"ember", 
+                   age:15, 
+                   children:null 
+               } 
+           ]  
+       } 
+   ] 
+}; 
